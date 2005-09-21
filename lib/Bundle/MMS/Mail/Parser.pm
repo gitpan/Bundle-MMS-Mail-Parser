@@ -3,7 +3,7 @@ package Bundle::MMS::Mail::Parser;
 use warnings;
 use strict;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 1; # End of Bundle::MMS::Mail::Parser
 
@@ -23,6 +23,8 @@ MMS::Mail::Message
 MMS::Mail::Message::Parsed
 MMS::Mail::Provider
 MMS::Mail::Provider::UKVodafone
+MMS::Mail::Provider::UK02
+MMS::Mail::Provider::UKOrange
 MMS::Mail::Parser
 
 =head1 DESCRIPTION

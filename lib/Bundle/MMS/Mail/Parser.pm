@@ -3,7 +3,7 @@ package Bundle::MMS::Mail::Parser;
 use warnings;
 use strict;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 1; # End of Bundle::MMS::Mail::Parser
 
@@ -25,6 +25,8 @@ MMS::Mail::Provider
 MMS::Mail::Provider::UKVodafone
 MMS::Mail::Provider::UK02
 MMS::Mail::Provider::UKOrange
+MMS::Mail::Provider::UKTMobile
+MMS::Mail::Provider::UKVirgin
 MMS::Mail::Parser
 
 =head1 DESCRIPTION
@@ -33,7 +35,7 @@ The complete set of modules required to parse MMS mail messages.
 
 =head1 AUTHOR
 
-Rob Lee robl@robl.co.uk
+Rob Lee C<<robl at robl.co.uk>>
 
 =head1 LICENSE
 

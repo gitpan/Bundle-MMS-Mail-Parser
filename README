@@ -1,18 +1,30 @@
-Bundle-MMS-Mail-Parser
+NAME
+    Bundle::MMS::Mail::Parser - Bundle of MMS parsing modules
 
-INSTALLATION
+SYNOPSIS
+    "perl -MCPAN -e 'install Bundle::MMS::Mail::Parser'"
 
-To install this module, run the following commands:
+CONTENTS
+    MMS::Mail::Message MMS::Mail::Message::Parsed MMS::Mail::Provider
+    MMS::Mail::Provider::UKVodafone MMS::Mail::Provider::UK02
+    MMS::Mail::Provider::UKOrange MMS::Mail::Provider::UKTMobile
+    MMS::Mail::Provider::UKVirgin MMS::Mail::Parser
 
-    perl Makefile.PL
-    make
-    make test
-    make install
+DESCRIPTION
+    The complete set of modules required to parse MMS mail messages.
 
+AUTHOR
+    Rob Lee "<robl at robl.co.uk">
 
-COPYRIGHT AND LICENCE
+LICENSE
+    Copyright 2005 Rob Lee, all rights reserved.
 
-Copyright (C) 2005 Rob Lee
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
 
-This program is free software; you can redistribute it and/or modify it
-under the same terms as Perl itself.
+    To quote the perl artistic license ('perldoc perlartistic') :
+
+    10. THIS PACKAGE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED
+    WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
+    MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
